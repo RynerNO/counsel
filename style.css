@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+    
+}
+.wrapper {
+    min-width: 1170px;
+}
+
+.background {
+    min-width: 1170px;
+    background-image: url(/counsel/img/header_background.png)
+}
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+.header {
+    width: 100%;
+    height: 896px;
+    position: relative;
+}
+
+.header__navigation {
+    flex-basis:200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header__navigation__logo>h1 {
+color: #fde428;
+font-family: 'Montserrat', sans-serif;
+font-size: 45px;
+font-weight: 700;
+margin-top: 50px;
+
+}
+
+.header__navigation__logo>p {
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 3.6px;
+white-space: nowrap;
+}
+
+.header__navigation__links {
+    margin-left: 331px;
+    list-style: none;
+    display: flex;
+  margin-top: 68px;
+  
+}
+.header__navigation__links>li>a {
+    color: #ffffff;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 51px;
+text-transform: uppercase;
+/* Text style for "About" */
+letter-spacing: 0.56px;
+margin: 0 17.5px;
+text-decoration: none;
+}
+
+.header__navigation__links>li>a:hover {
+border-bottom: 1px solid #ffffff;
+
+}
+
+.header__navigation__rectangle {
+    margin-left: 870px;
+    margin-top: 20%;
+    background-image: url('/counsel/img/rect.png');
+    background-repeat: no-repeat;
+    
+    height: 50%;
+}
+.header__navigation__rectangle__text {
+position: relative;
+right: 180px;
+top: 77px;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 51px;
+font-weight: 700;
+line-height: 51px;
+}
+.header__navigation__rectangle__link {
+position: relative;
+top: 105px;
+right: 73px;
+color: #fde428;
+font-family: Montserrat;
+font-size: 21px;
+font-weight: 700;
+line-height: 50.97px;
+text-transform: uppercase;
+}
+.navigational_arrows {
+    position: fixed;
+    bottom: 10%;
+    left: 15%;
+}
+.navigational_arrows>a {
+   
+    color: #fde428;
+font-family: "Myriad Pro";
+font-size: 12px;
+font-weight: 400;
+line-height: 52.71px;
+text-transform: uppercase;
+/* Text style for "previous" */
+letter-spacing: 0.48px;
+text-decoration: none;
+}
+
+.slide2 {
+    background: #ffffff;
+    display: flex;
+    height: 524px;
+}
+
+.slide2__title {
+    font-size: 31px;
+    font-family: "Montserrat";
+    color: rgb(0, 46, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    width: 566px;
+
+      
+}
+.slide2__yellow {
+    background-color: rgb(253, 228, 40);
+    opacity: 0.98;
+    position: absolute;
+   
+    bottom: -262px;
+    width: 270px;
+    height: 524px;
+    z-index: 1;
+  }
+  .slide2__videocontainer {
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: -155px;
+    bottom: -163px;
+    height: 326px;
+    z-index: 2;
+  }
+  #playbutton1 {
+    position: absolute;
+    z-index: 23;
+    left: 80px;
+    bottom: -60px;
+    opacity:1;
+}
+#playbutton1:hover {
+    opacity: 0.8;
+}
+.slide2__container {
+    margin: auto auto;
+    width: 500px;
+    position: relative;
+}
+.slide2__textcontainer {
+    margin-right: 25%;
+}
+.slide2__sidetext {
+        font-size: 21px;
+        font-family: "Segoe UI Emoji";
+        color: rgb(102, 102, 102);
+        line-height: 1.19;
+        text-align: left;
+        margin-top: 15px;
+        width: 566px;
+    
+}
+.slide2__maintext {
+        font-size: 16px;
+        font-family: "Segoe UI Emoji";
+        color: rgb(51, 51, 51);
+        line-height: 1.563;
+        text-align: left;
+        margin-top: 15px;  
+        width: 566px;
+}
+
+.slide2__link {
+        font-size: 16px;
+        font-family: "Montserrat";
+        color: rgb(0, 46, 91);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 5.563;
+        width: 150px;
+        display: block;
+}
+
+.slide3 {
+    height: 683px;
+    display: flex;
+    background-color: rgb(244, 244, 244);
+ 
+      
+}
+.slide3__graph {
+    height: 483px;
+    width: 530px;
+}
+.slide3__text {
+    height: 483px;
+    width: 570px;
+    margin-left:75px;
+}
+.slide3__container {
+    margin: auto auto;
+    display: flex;
+}
+.slide4 {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 46, 91);     
+}
+
+.slide4__text {
+    
+        font-size: 21px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        width: 539px;
+        line-height: 100px;
+        margin-right: 25%
+      
+}
+.slide4__container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.slide4__button {
+        
+        border-radius: 3px;
+        background-color: rgb(253, 228, 40);
+        width: 161px;
+        height: 44px;
+        margin: auto 0;
+        text-decoration: none;
+        text-align: center;
+        
+}
+.slide4__button:active {
+    box-shadow: 0 2px 0  rgb(253, 228, 40);
+    transform: translateY(3px);
+  }
+.slide4__button__text {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(0, 46, 91);
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 2.5;
+    
+}
+.slide5 {
+    height: 672px;
+}
+.slide5__title {
+    padding-top: 100px;
+    font-size: 31px;
+    font-family: "Montserrat";
+    color: rgb(0, 46, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+        
+  
+      
+}
+.slide5__smalltext {
+    font-size: 21px;
+    font-family: "Segoe UI Emoji";
+    color: rgb(102, 102, 102);
+    line-height: 1.19;
+    text-align: center;
+    margin-top: 15px;
+    width: 524px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.slide5__figures {
+    display: flex;
+}
+.slide5__figure {
+    width: 370px;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+.color__1 {
+background-color: rgb(105, 210, 231);
+}
+.color__2 {
+background-color: rgb(173, 212, 120);     
+}
+.color__3 {
+background-color: rgb(244, 159, 119);
+}
+.slide5__figure_img {
+        
+        width: 370px;
+        height: 191px;     
+}
+
+.slide5__figure_text__title {
+    
+    font-size: 21px;
+    font-family: "Montserrat";
+    color: rgb(0, 46, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.286;
+    text-align: left;
+    -moz-transform: matrix( 1,0,0,1.00015883392096,0,0);
+    -webkit-transform: matrix( 1,0,0,1.00015883392096,0,0);
+    -ms-transform: matrix( 1,0,0,1.00015883392096,0,0);
+     
+ 
+      
+}
+.slide5__figure_text__small {
+    font-size: 16px;
+    font-family: "Segoe UI Emoji";
+    color: rgb(51, 51, 51);
+    line-height: 1.563;
+    text-align: left;
+    -moz-transform: matrix( 1,0,0,1.00015883392096,0,0);
+    -webkit-transform: matrix( 1,0,0,1.00015883392096,0,0);
+    -ms-transform: matrix( 1,0,0,1.00015883392096,0,0);        
+}
+
+.slide6 {
+    background-color: rgb(0, 46, 91);
+    height: 359px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.slide6__textblock {
+    margin-right: 7%;
+    font-size: 14px;
+    font-family: "Segoe UI Emoji";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 3.429;
+    text-align: center;       
+}
+.slide6__textblock__title {
+font-size: 48px;
+font-family: "Montserrat";
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+line-height: 1.25;
+text-align: center;    
+}
+.slide7 {
+    height: 527px;
+    display: flex;
+}
+.slide7__title {
+    font-size: 31px;
+    font-family: "Montserrat";
+    color: rgb(0, 46, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    width: 566px;
+
+      
+}
+.slide7__yellow {
+    background-color: rgb(253, 228, 40);
+    opacity: 0.98;
+    position: absolute;
+   
+    bottom: -262px;
+    width: 270px;
+    height: 524px;
+    z-index: 1;
+  }
+  .slide7__rectangle {
+    background-color: rgb(161, 161, 161);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: -115px;
+    bottom: -163px;
+    width: 499px;
+    height: 326px;
+    z-index: 2;
+  }
+  
+.slide7__container {
+    margin: auto auto;
+    width: 500px;
+    position: relative;
+}
+.slide7__videocontainer {
+        
+        box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        position: absolute;
+        bottom: -163px;
+        left: -150px;
+        height: 326px;
+     z-index: 22;
+}
+.slide7__sidetext {
+        font-size: 21px;
+        font-family: "Segoe UI Emoji";
+        color: rgb(102, 102, 102);
+        line-height: 1.19;
+        text-align: left;
+        margin-top: 15px;
+        width: 566px;
+    
+}
+.slide7__maintext {
+        font-size: 16px;
+        font-family: "Segoe UI Emoji";
+        color: rgb(51, 51, 51);
+        line-height: 1.563;
+        text-align: left;
+        margin-top: 15px;  
+        width: 566px;
+}
+
+.slide7__link {
+        font-size: 16px;
+        font-family: "Montserrat";
+        color: rgb(0, 46, 91);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 5.563;
+        width: 150px;
+        display: block;
+}
+#playbutton2 {
+    position: absolute;
+    z-index: 23;
+    left: 60px;
+    bottom: -60px;
+    opacity:1;
+}
+#playbutton2:hover {
+    opacity: 0.8;
+}
+.hidden {
+    opacity: 0 !important;
+}
+
+.slide8 {
+        height: 675px;
+        background-color: rgb(0, 46, 91);
+      
+}
+.slide8__container {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.slide8__commas {
+    font-size: 78px;
+    font-family: "HelveticaRoundedLT";
+    color: rgb(255, 255, 255);
+    line-height: 0.79;
+    text-align: center;
+    -moz-transform: matrix( 1,0,0,0.99835732031768,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99835732031768,0,0);
+    -ms-transform: matrix( 1,0,0,0.99835732031768,0,0);     
+}
+
+.slide8__text {
+    padding-top: 3%;
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.897;
+    text-align: center;
+    -moz-transform: matrix( 1,0,0,0.99835732031768,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99835732031768,0,0);
+    -ms-transform: matrix( 1,0,0,0.99835732031768,0,0);   
+}
+.slide8__author {
+    padding-top: 2%;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 3.429;
+    text-align: center;
+    -moz-transform: matrix( 1,0,0,0.99835732031768,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99835732031768,0,0);
+    -ms-transform: matrix( 1,0,0,0.99835732031768,0,0);
+      
+}
+
+.slide9 {
+    height: 797px;
+}
+.slide9__title {
+    padding-top: 5%;
+    font-size: 31px;
+    font-family: "Montserrat";
+    color: rgb(0, 46, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;    
+}
+
+.slide9__smalltext {
+    font-size: 21px;
+    font-family: "Segoe UI Emoji";
+    color: rgb(102, 102, 102);
+    line-height: 1.19;
+    text-align: center;
+    margin-top: 15px;
+    width: 524px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.slide9__figures {
+    display: flex;
+}
+
+.slide9__figure {
+    padding-top: 3%;
+    margin-right: 2%;
+}
+
+.footer {
+    background-color: rgb(0, 46, 91);
+    height: 81px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.footer__copy {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 2.813;
+}
+
+.footer__social>a>i {
+    color: #ffffff;
+    margin-left: 15px;
+}
