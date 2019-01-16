@@ -31,7 +31,7 @@ function play1() {
 }
 
 var linkNav = document.querySelectorAll('[href^="#"]'), //выбираем все ссылки к якорю на странице
-    V = 0.5; 
+    V = 0.4; 
 for (var i = 0; i < linkNav.length; i++) {
     linkNav[i].addEventListener('click', function(e) { 
         e.preventDefault(); 
